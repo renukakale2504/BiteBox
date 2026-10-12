@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketers Details</title>
+</head>
+<body>
+    <center>
+        <h1>Cricketers Table</h1>
+        <table border="2" cellspacing="2" cellpadding="4">
+            <thead> <!--<thead>= table head it is used to group the header rows of a table-->
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Runs</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+
+            <tbody> <!--tag in html stands for table body it is used to group the main data rows of a table-->
+                <tr>
+                    <td>1</td>
+                    <td>Virat Kohali</td>
+                    <td>14,000</td>
+                    <td rowspan="2">Mumbai</td> <!--rowspan is an HTML attribute used to make one table cell span across multiple rows.-->
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sachin Tendulkar</td>
+                    <td>15,000</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Abhishek sharma</td>
+                    <td>10,000</td>
+                    <td>banglore</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Rajat Patidar</td>
+                    <td>12,500</td>
+                    <td>manipur</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr align="center">
+                    <td colspan="4">&copy; Copyright BCCI Pvt Ltd.</td> <!--colspan is an HTML attribute used to make one table cell span across multiple columns / Merging of columns.-->
+                </tr>
+            </tfoot>
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>                                  <!--Declaration of code / tells we are using HTML5-->
+<html lang="en">                                 <!--html tells that root/main of HTML document  (lang="en" : attribute)-->
+<head>
+    <meta charset="UTF-8">                       <!---contain info about web info/ "UTF=8": tells interpret correctly/ meta is define in the head tag only-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport is used to display web pages on diff devices accordingly such as tab, mobile, laptop-->
+    <title>List Elements</title>                 <!--title is appears on browser tab this is not web page content-->
+</head>
+<body>                                           <!--contains all the web page content write all the tags, attribute, elements in this tag-->
+   
+    <h1>Order List</h1>                          <!--main topmost heading level as compared to other-->
+    
+    <ol type="A">                                <!--ordered list written in output like 1,2,3...-->
+        <li>Python</li>                          <!--list items we can write the list items of the list -->
+        <ol type="a"> 
+            <li>List</li>
+            <ol type="i">
+                <li>Sequence</li>
+            </ol>
+            <li>Tuple</li>
+            </ol>
+            <li>Java</li>
+            <li>SQL</li>
+        </ol>
+        <h2>Unorded List</h2>
+        <ul style="list-style-type: disc ;">    <!--Unordered list it is not structured it show o/p as a bullet pts-->
+            <li>Fruits</li>
+            <ul style="list-style-type: lower-greek;">
+                <li>Banana</li>
+                <ul>
+                    <li>Elichi</li>
+                    <li>Hybrid</li>
+                </ul>
+                <li>Apple</li>
+            </ul>
+            <li>Colors</li>
+            <li>Days</li>
+        </ul>
+        
+
+        <h2>Description List dl, dt, dd</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Lang</dd>
+            <dd>Inline</dd>
+            <dl>
+                <dt>Block Elements</dt>
+                <dd>div, p, pre, h1-h6</dd>
+            </dl>
+        </dl>
+
+        <h2>Collapse Menu</h2>
+        <details>              <!--Used for hide and unhide elements-->
+            <summary>Colors</summary>
+            <ol>
+                <li>Red</li>
+                <li>Green</li>
+            </ol>
+
+            <img src="Kriz_Puppy.jpg" alt="Kriz_Puppy" width="300" height="300" />
+        </details>
+</body>
+</html>

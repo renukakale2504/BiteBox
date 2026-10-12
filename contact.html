@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BiteBox</title>
+</head>
+<body>
+    <!--<h1>Contact Us</h1>-->
+    <header>
+        <img src="assets/images/Bitelogo.jpg" alt="BiteBox" width="150">
+    <p>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </p>
+    </header>
+
+    <h2>Visit Our Website</h2>
+    <p><a href="https://www.google.com">Visit Google</a></p>
+
+    <!--Customer Registration Form-->
+    <h2>Customer Registration &Order Form</h2>
+
+    <!--<form> in HTML is used to collect user input and submit data.
+        Login forms
+        Registration forms
+        Contact forms
+        Search boxes
+        Feedback forms-->
+        <!--</label> in HTML is used to provide a text label for an input field, 
+        such as a name box, email field, or password field.-->
+    <hr>    
+    <form>
+        <h3>Customer Information</h3>
+        <label for="fullname">Full Name</label>
+        <br>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+
+        <label for="email">Email Address</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label for="phone">Phone Number</label>
+        <br>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <h3>Order Information</h3>
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="number" id="quantity" name="quantity">
+        <br><br>
+
+        <label for="deliveryDete">Prefered Delivery Date</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="food">Select Food Item</label>
+        <br>
+        <!--<select> in HTML is used to create a drop-down list from which users can select an option.-->
+        <!--<option> in HTML is used to define an option inside a drop-down list created using the <select> tag.-->
+        <select name="food" id="food">
+            <option>
+                Veg Pizza
+            </option>
+
+            <option>
+                Cheese Burger
+            </option>
+
+            <option>
+                Red Sauce Pasta
+            </option>
+
+            <option>
+                Grilled Sandwich
+            </option>
+
+            <option>
+                Loaded Fries
+            </option>
+
+        </select>
+        <br><br>
+
+        <h3>Payment Method</h3>
+        <!--<input type="radio"> in HTML is used to allow users to select only one option from a group of options.-->
+        <input type="radio" id="cash" name="Payment">
+        <label for="cash">Cash</label>
+
+        <input type="radio" id="card" name="Payment">
+        <label for="card">Card</label>
+
+        <input type="radio" id="upi" name="Payment">
+        <label for="upi">UPI</label>
+        <br><br>
+
+        <h3>Extras</h3>
+        <!--<input type="checkbox"> in HTML is used to allow users to select one or more options from a list.-->
+        <input type="checkbox" id="cheese" name="Extras">
+        <label for="cheese">Cheese</label>
+
+        <input type="checkbox" id="drinks" name="Extras">
+        <label for="drinks">Cold Drinks</label>
+        
+        <input type="checkbox" id="dessert" name="Extras">
+        <label for="dessert">Dessert</label>
+        <br><br>
+
+        <h3>Delivery Instruction</h3>
+        <label for="address">Delivery Address</label>
+        <br> <textarea name="address" id="address" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear Form">
+    </form>
+
+    <footer>
+
+    <!-- Footer Logo Section -->
+    <section>
+        <img src="assets/images/Bitelogo.jpg" alt="BiteBox Logo" width="180">
+        <p> Delicious food delivered to your doorstep.
+            Fresh, fast and tasty!
+        </p>
+
+        <a href="#">
+            <img src="assets/images/facebook.png" alt="Facebook" width="35" height="35">
+        </a>
+
+        <a href="#">
+            <img src="assets/images/instagram.png" alt="Instagram" width="35" height="35">
+        </a>
+
+        <a href="#">
+            <img src="assets/images/twitter.png" alt="Twitter" width="35" height="35">
+        </a>
+        <a href="#">
+            <img src="assets/images/youtube.png" alt="YouTube" width="35" height="35">
+        </a>
+    </section>
+
+    <hr>
+
+    <!-- Quick Links -->
+    <section>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+
+        </ul>
+        </section>
+        
+
+    <!-- Customer Service -->
+    <section>
+        <h3>Customer Service</h3>
+        <ul>
+            <li>Track Order</li>
+            <li>FAQs</li>
+            <li>Shipping Policy</li>
+            <li>Return Policy</li>
+            <li>Terms & Conditions</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact Information -->
+    <section>
+        <h3>Contact Us</h3>
+        <p>📞 +91 98765 43210</p>
+        <p>✉ support@bitebox.com</p>
+        <p>📍 123 Food Street, Mumbai, Maharashtra 400001 </p>
+    </section>
+
+    <hr>
+
+    <!-- Payment Methods -->
+    <section>
+        <h3>Payment Methods</h3>
+        <img src="assets/images/visa.png" alt="Visa" width="60">
+        <img src="assets/images/mastercard.png" alt="MasterCard" width="60">
+        <img src="assets/images/upi.png" alt="UPI" width="60">
+        <img src="assets/images/paytm.png"  alt="Paytm" width="60">
+    </section>
+
+    <hr>
+    <p> © 2026 BiteBox. All Rights Reserved. </p>
+
+</footer>
+    <hr>
+</body>
+</html>

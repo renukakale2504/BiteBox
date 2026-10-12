@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    
+    <!--In CSS, style means controlling how HTML elements look and are positioned on a webpage.-->
+    <style>      
+    /* ID selectors     */  
+        #p1{        /*ID Selector*/
+            color: rgb(204, 0, 255);
+            font-size: 30px;
+        }
+        #text{
+            text-decoration: underline;
+            background-color: yellow;
+        }
+
+        /*class selector*A class selector is used to style HTML elements that have a specific class attribute.
+        The . (dot) before the class name is important. 
+        . → class selector → .box
+        # → ID selector → #header
+        * → universal selector → *  
+        Types of CSS - Inline,internal,External*/
+
+        .p2{        /*Class Selector*/
+            text-align:center;
+            background-color: red;
+        }
+
+        .p3{
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text" class="p2 p3" style="background-color: grey;">Welcome CSS Selector</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi aspernatur, ipsum nisi impedit eveniet maxime obcaecati ratione 
+        saepe non tempora, ipsam eius vel cumque debitis, aliquam nulla nemo voluptate alias.
+    </p>
+    <h2 id="p1">ID and Class Selector</h2>
+    <p>Hello</p>
+    <p>Good Morning</p>
+</body>
+</html>

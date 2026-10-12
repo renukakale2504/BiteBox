@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>LogIn Form</h1>
+    <form method="get" action="home.html">         <!--POST AND GET Mthod = GET = 1.get/retrieve data, 
+                                  2.Data is in request body,3.Good for submitting data,4,can send larger amount of data
+                                  preferred for sensitive form submission with https
+                                  POST = 1.send/submit data
+                                  2.Can be bookmarked 3.URL length limits apply 4.Don't use for sensitive dat-->
+
+    <label>Enter Email</label>   <!--In HTML, the <label> tag gives a text label to a form control, such as an <input>, checkbox, radio button, or select field.-->
+        <input type="email" required name="uemail">
+        <br><br>
+        <label>Enter Password</label>
+        <input type="password" required name="upass">
+        <br><br>
+        <input type="Submit" value="Submit"/>
+        <!--<button>Submit</button>-->
+        <button>Cancel</button>
+        </form>
+    </body>
+</html>
